@@ -193,7 +193,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Welcome to the Title Screen
+  m_Text: 'Welcome to the Title Screen
+
+    (tutorial: click the objects)'
 --- !u!222 &147659922
 CanvasRenderer:
   m_ObjectHideFlags: 0

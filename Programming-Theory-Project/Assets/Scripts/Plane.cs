@@ -13,4 +13,10 @@ public class Plane : Vehicle
     {
         Debug.Log("Plane from " + vehicleYear + " is flying.");
     }
+
+    public override void Honk() // POLYMORPHISM
+    {
+        Debug.Log("Plane warns passangers before loud honk.");
+        base.Honk();
+    }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Dog : Animal
 {
     public Dog(){
-        setName("Figo");
+        setName("Figo"); // ENCAPSULATION
     }
 
     public void Bark()

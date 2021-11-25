@@ -6,7 +6,7 @@ public class Cat : Animal
 {
     public Cat()
     {
-        setName("Tobias");
+        setName("Tobias"); // ENCAPSULATION
     }
 
     public void Meow()

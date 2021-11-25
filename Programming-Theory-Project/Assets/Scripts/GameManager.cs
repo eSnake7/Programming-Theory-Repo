@@ -30,29 +30,29 @@ public class GameManager : MonoBehaviour
             {
                 if(hit.transform.gameObject.name == "AnimalCube")
                 {
-                    cat.Jump();
-                    dog.Jump();
+                    cat.Jump(); // INHERITANCE
+                    dog.Jump(); // INHERITANCE
                 }
                 else if (hit.transform.gameObject.name == "VehicleSphere")
                 {
-                    plane.Honk();
-                    car.Honk();
+                    plane.Honk(); // INHERITANCE
+                    car.Honk(); // INHERITANCE
                 }
                 else if (hit.transform.gameObject.CompareTag("Dog"))
                 {
-                    dog.Bark();
+                    dog.Bark(); // ABSTRACTION
                 }
                 else if (hit.transform.gameObject.CompareTag("Cat"))
                 {
-                    cat.Meow();
+                    cat.Meow(); // ABSTRACTION
                 }
                 else if (hit.transform.gameObject.CompareTag("Plane"))
                 {
-                    plane.Fly();
+                    plane.Fly(); // ABSTRACTION
                 }
                 else if (hit.transform.gameObject.CompareTag("Car"))
                 {
-                    car.Go();
+                    car.Go(); // ABSTRACTION
                 }
             }
         }

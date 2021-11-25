@@ -22,7 +22,7 @@ public class Vehicle : MonoBehaviour
         return vehicleYear;
     }
 
-    public void Honk()
+    public virtual void Honk()
     {
         Debug.Log("Vehicle from " + vehicleYear + " has honked.");
     }
