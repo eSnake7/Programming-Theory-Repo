@@ -6,25 +6,24 @@ public class Vehicle : MonoBehaviour
 {
     protected int vehicleYear { get; set; }
 
-    // Start is called before the first frame update
-    void Start()
+    protected void setVehicleYear(int year)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    /*protected void setVehicleYear(int year)
-    {
-        vehicleYear = year;
+        if(year < 0)
+        {
+            Debug.Log("For some reasons cars from the year 10 are fine, but before 0 no!");
+        }
+        else { 
+            vehicleYear = year;
+        }
     }
 
     protected int getVehicleYear()
     {
         return vehicleYear;
-    }*/
+    }
+
+    public void Honk()
+    {
+        Debug.Log("Vehicle from " + vehicleYear + " has honked.");
+    }
 }

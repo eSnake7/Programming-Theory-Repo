@@ -35,7 +35,7 @@ public class Animal : MonoBehaviour
         return animalName;
     }
 
-    protected void jump()
+    public void Jump()
     {
         Debug.Log("Animal " + animalName + " has jumped.");
     }
